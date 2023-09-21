@@ -1,0 +1,780 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.section-1 {
+    width: 100%;
+    padding: 100px 200px;
+}
+
+.section-1 h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 20px;
+}
+
+.section-1 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #95A1BB;
+    margin-bottom: 40px;
+}
+
+.section-1 .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.section-1 .box .box-1 {
+    width: 220px;
+    padding: 35px;
+    border: 1px solid #E1E5EE;
+    border-radius: 5px;
+}
+.section-1 .box .box-1:hover{
+    width: 220px;
+    padding: 35px;
+    border: 1px solid #6E38F7;
+    border-radius: 5px;
+}
+.section-1 .box .box-1 h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 30px;
+}
+
+.section-1 .box .box-1 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 30px;
+}
+
+.section-1 .box .box-1 span b {
+    color: #363940;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.section-1 .box .box-1 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 20px;
+}
+
+.section-1 .box .box-1 button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #6E38F7;
+    background-color: #FFFFFF;
+    border: 1px solid#6E38F7;
+    border-radius: 5px;
+    padding: 8px 30.43px;
+    cursor: pointer;
+}
+.section-1 .box .box-1 button:hover{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #6E38F7;
+    border-radius: 5px;
+    padding: 8px 30.43px;
+}
+.section-1 .box .box-2 {
+    width: 220px;
+    padding: 35px;
+    border: 1px solid #E1E5EE;
+    border-radius: 5px;
+}
+.section-1 .box .box-2:hover {
+    width: 220px;
+    padding: 35px;
+    border: 1px solid #6E38F7;
+    border-radius: 5px;
+}
+
+.section-1 .box .box-2 h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 30px;
+}
+
+.section-1 .box .box-2 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 30px;
+}
+
+.section-1 .box .box-1 .img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.section-1 .box .box-2 span b {
+    color: #363940;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.section-1 .box .box-2 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 20px;
+}
+
+.section-1 .box .box-2 button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #6E38F7;
+    background-color: #FFFFFF;
+    border: 1px solid#6E38F7;
+    border-radius: 5px;
+    padding: 8px 30.43px;
+    cursor: pointer;
+}
+.section-1 .box .box-2 button:hover {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #6E38F7;
+    border-radius: 5px;
+    padding: 8px 30.43px;
+}
+
+.section-2 {
+    width: 100%;
+    padding: 100px 200px;
+}
+
+.section-2 h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 20px;
+}
+
+.section-2 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #95A1BB;
+    margin-bottom: 40px;
+}
+
+.section-2 .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.section-2 .box .box-1 {
+    width: 290px;
+    padding: 40px 50px;
+    border: 1px solid #E1E5EE;
+    border-radius: 5px;
+}
+.section-2 .box .box-1:hover {
+    width: 290px;
+    padding: 40px 50px;
+    border: 1px solid #6E38F7;
+    border-radius: 5px;
+}
+
+
+.section-2 .box .box-1 h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 30px;
+}
+
+.section-2 .box .box-1 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 30px;
+}
+
+.section-2 .box .box-1 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 20px;
+}
+
+.section-2 .box .box-1 button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #6E38F7;
+    background-color: #FFFFFF;
+    border: 1px solid#6E38F7;
+    border-radius: 5px;
+    padding: 8px 30.43px;
+    cursor: pointer;
+}
+.section-2 .box .box-1 button:hover {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #6E38F7;
+    border-radius: 5px;
+    padding: 8px 30.43px;
+}
+.section-2 .box .box-2 {
+    width: 290px;
+    padding: 40px 50px;
+    border: 1px solid #E1E5EE;
+    border-radius: 5px;
+}
+.section-2 .box .box-2:hover {
+    width: 290px;
+    padding: 40px 50px;
+    border: 1px solid #6E38F7;
+    border-radius: 5px;
+}
+
+.section-2 .box .box-2 h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 30px;
+}
+
+.section-2 .box .box-2 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 30px;
+}
+
+.section-2 .box .box-2 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 20px;
+}
+
+.section-2 .box .box-2 button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #6E38F7;
+    background-color: #FFFFFF;
+    border: 1px solid#6E38F7;
+    border-radius: 5px;
+    padding: 8px 30.43px;
+    cursor: pointer;
+}
+.section-2 .box .box-2 button:hover {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #6E38F7;
+    border-radius: 5px;
+    padding: 8px 30.43px;
+}
+
+.section-3 {
+    width: 100%;
+    padding: 100px 200px;
+}
+
+.section-3 h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 20px;
+}
+
+.section-3 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #95A1BB;
+    margin-bottom: 40px;
+}
+
+.section-3 .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.section-3 .box .box-1 {
+    width: 440px;
+    padding: 40px 120px;
+    border: 1px solid #E1E5EE;
+    border-radius: 5px;
+}
+.section-3 .box .box-1:hover {
+    width: 440px;
+    padding: 40px 120px;
+    border: 1px solid #6E38F7;
+    border-radius: 5px;
+}
+
+.section-3 .box .box-1 h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 30px;
+}
+
+.section-3 .box .box-1 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 30px;
+}
+
+.section-3 .box .box-1 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 20px;
+}
+
+.section-3 .box .box-1 button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #6E38F7;
+    background-color: #FFFFFF;
+    border: 1px solid#6E38F7;
+    border-radius: 5px;
+    padding: 8px 30.43px;
+    cursor: pointer;
+}
+.section-3 .box .box-1 button:hover {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #6E38F7;
+    border-radius: 5px;
+    padding: 8px 30.43px;
+}
+.section-3 .box .box-2 {
+    width: 440px;
+    padding: 40px 120px;
+    border: 1px solid #E1E5EE;
+    border-radius: 5px;
+}
+.section-3 .box .box-2:hover {
+    width: 440px;
+    padding: 40px 120px;
+    border: 1px solid #6E38F7;
+    border-radius: 5px;
+}
+
+.section-3 .box .box-2 h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 30px;
+}
+
+.section-3 .box .box-2 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 30px;
+}
+
+.section-3 .box .box-2 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 20px;
+}
+
+.section-3 .box .box-2 button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #6E38F7;
+    background-color: #FFFFFF;
+    border: 1px solid#6E38F7;
+    border-radius: 5px;
+    padding: 8px 30.43px;
+    cursor: pointer;
+}
+.section-3 .box .box-2 button:hover {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #6E38F7;
+    border-radius: 5px;
+    padding: 8px 30.43px;
+}
+.section-4 {
+    width: 100%;
+    padding: 100px 200px;
+}
+
+.section-4 h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 20px;
+}
+
+.section-4 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #95A1BB;
+    margin-bottom: 40px;
+}
+
+.section-4 .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.section-4 .box table{
+    width: 940px;
+}
+.section-4 .box th{
+    border:1px solid #E1E5EE;
+}
+.section-4 .box td{
+border:1px solid #E1E5EE;
+}
+.section-4 .box table .item-1{
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color:#95A1BB;
+padding: 14px 20px;
+}
+.section-4 .box table .item-2{
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: center;
+color:#363940;
+padding: 14px 20px;
+}
+.section-4 .box table td{
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color:#363940;
+padding: 14px 20px;
+}
+.section-4 .box table .item-3{
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color:#6E38F7;
+}
+.section-4 .box table .item-4{
+    text-align: center;
+    color:#CAD1E1;
+}
+.section-4 .box table .item-5{
+    text-align: center;
+    color:#6E38F7;
+}
+.section-4 .box table tr td button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #6E38F7;
+    background-color: #FFFFFF;
+    border: 1px solid#6E38F7;
+    border-radius: 5px;
+    padding: 8px 30.43px;
+    margin: 0 13%;
+    cursor: pointer;
+}
+.section-4 .box table tr td button:hover{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #6E38F7;
+    border-radius: 5px;
+    padding: 8px 30.43px;   
+    margin: 0 13%;
+}
+.section-5 {
+    width: 100%;
+    padding: 100px 200px;
+}
+
+.section-5 h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 20px;
+}
+
+.section-5 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #95A1BB;
+    margin-bottom: 40px;
+}
+
+.section-5 .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.section-5 .box .box-1{
+    width: 290px;
+    padding: 25px;
+    border: 1px solid #95A1BB;
+    border-radius:5px;
+}
+.section-5 .box .box-1:hover{
+    width: 290px;
+    padding: 25px;
+    border: 1px solid #6E38F7;
+    border-radius:5px;
+}
+.section-5 .box .box-1 .item{
+    display: flex;
+    justify-content: space-between;
+}
+.section-5 .box .box-1 .item .item-1 h2{
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+color:#363940;
+margin-bottom: 10px;
+}
+.section-5 .box .box-1 .item .item-1 h4{
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color:#95A1BB;
+margin-bottom: 20px;
+}
+
+.section-5 .box .box-1 .tittle .tittle-1{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.section-5 .box .box-1 .tittle .tittle-1 p{
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color:#95A1BB;
+margin-bottom: 15px;
+}
+.section-5 .box .box-1 hr{
+    margin-bottom: 20px;
+    color:#E1E5EE;
+}
+.section-5 .box .box-1 button{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #6E38F7;
+    background-color: #FFFFFF;
+    border: 1px solid#6E38F7;
+    padding: 8px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section-5 .box .box-1 button:hover{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #6E38F7;
+    padding: 8px 0px;
+    border-radius: 5px;
+}
